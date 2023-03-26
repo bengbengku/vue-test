@@ -62,3 +62,17 @@
   background: #aeaeafa1;
   border-radius: 5px;
 }
+
+.data-count {
+  transform: translateY(50px);
+}
+
+/* Media Queries */
+
+@media (max-width: 1146px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+/* Media Queries */

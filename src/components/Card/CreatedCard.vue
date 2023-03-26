@@ -1,4 +1,5 @@
 <template>
+  <h4 class="data-count">count data: {{ $store.state.posts.length }}</h4>
   <div class="card-container scrollbar">
     <p v-if="loading" style="text-align: center; margin: 0 auto">Fetching data...</p>
     <div v-else class="card" v-for="post in posts" :key="post.id">
