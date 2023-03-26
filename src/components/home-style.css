@@ -1,0 +1,108 @@
+.container {
+  width: 100%;
+  padding: 4rem;
+}
+
+.container > h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.blogs_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.posts-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.col {
+  width: 50%;
+  display: flex;
+  padding: 2rem;
+}
+
+form {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input .form-label {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0.45em;
+}
+
+.form-input input {
+  outline: none;
+  border: none;
+  resize: none;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 1px;
+  font-family: inherit;
+  background: #bdb8b88d;
+  border-radius: 6px;
+  color: #000;
+}
+
+.form-input textarea {
+  width: 100%;
+  height: 125px;
+  resize: none;
+  border-radius: 7px;
+  outline-offset: 5px;
+  border-color: #e4e6eb;
+  padding: 0.5rem;
+  font-family: inherit;
+  background: #bdb8b88d;
+  color: #050505;
+}
+
+.form-input textarea:focus {
+  outline-color: #bdb8b88d;
+}
+
+.form-container .btn {
+  padding: 8px;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  font-weight: 600;
+  background: #f29d9d8d;
+  cursor: pointer;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5rem;
+  margin: 0.2em 0.5em;
+}
+
+.form-checkbox input {
+  transform: translateY(2.5px);
+}
